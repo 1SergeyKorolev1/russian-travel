@@ -15,7 +15,7 @@
     text-align: start;
   }
 }
-@media screen and (max-width: 679px) {
+@media screen and (max-width: 697px) {
   .footer__link {
     margin-bottom: 32px;
   }
