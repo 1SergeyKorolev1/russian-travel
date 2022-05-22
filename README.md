@@ -1,6 +1,6 @@
 ---
 # ПУТЕШЕСТВИЯ ПО РОССИИ
-[Ссылка на проект - ](https://practicum.yandex.ru/) 
+[Ссылка на проект←](https://1sergeykorolev1.github.io/russian-travel/) 
 ---
 
 _Проект из учебного курса [Я.Практикум](https://practicum.yandex.ru/) веб-разработка._
