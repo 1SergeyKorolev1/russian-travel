@@ -1,0 +1,25 @@
+.content {
+  position: relative;
+  overflow: hidden;
+  margin: auto;
+  padding: 0 48px;
+  max-width: 1184px;
+  background: #2a2c2f;
+  transition: padding 1s ease;
+  transition: padding 1s ease;
+}
+@media screen and (max-width: 1024px) {
+  .content {
+    padding: 0 48px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .content {
+    padding: 0 24px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .content {
+    padding: 0 16px;
+  }
+}

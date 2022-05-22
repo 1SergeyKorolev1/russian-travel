@@ -1,0 +1,10 @@
+.intro {
+  padding-left: 100px;
+  max-width: 690px;
+  transition: padding 1s ease;
+}
+@media screen and (max-width: 1024px) {
+  .intro {
+    padding: 0;
+  }
+}

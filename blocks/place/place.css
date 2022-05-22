@@ -1,0 +1,25 @@
+.place {
+  margin-bottom: 80px;
+  display: grid;
+  grid-template-columns: minmax(10px, 460px) minmax(10px, 484px);
+  grid-template-rows: auto auto;
+  gap: 48px 40px;
+  transition: all 1s ease;
+}
+@media screen and (max-width: 1024px) {
+  .place {
+    gap: 48px 32px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .place {
+    gap: 48px 28px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .place {
+    gap: 32px;
+    grid-template-columns: minmax(10px, 460px);
+    margin-bottom: 40px;
+  }
+}
