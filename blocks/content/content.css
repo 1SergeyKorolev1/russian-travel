@@ -6,7 +6,6 @@
   max-width: 1184px;
   background: #2a2c2f;
   transition: padding 1s ease;
-  transition: padding 1s ease;
 }
 @media screen and (max-width: 1024px) {
   .content {
