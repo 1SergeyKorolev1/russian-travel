@@ -1,18 +1,26 @@
 .header {
+  max-width: calc(1282px - 48 * 2px);
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 28px 0 56px;
+  margin: 28px auto 56px;
+  padding: 0 48px;
   transition: all 1s ease;
 }
 @media screen and (max-width: 1024px) {
   .header {
-    margin: 28px 0 48px;
+    margin: 28px auto 48px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .header {
+    padding: 0 24px;
   }
 }
 @media screen and (max-width: 320px) {
   .header {
-    margin: 16px 0 48px;
+    margin: 16px auto 48px;
     align-items: end;
+    padding: 0 16px;
   }
 }

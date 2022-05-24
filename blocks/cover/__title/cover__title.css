@@ -1,5 +1,6 @@
 .cover__title {
-  font-family: Inter-Black;
+  max-width: 550px;
+  font-family: Inter;
   grid-column: 1/2;
   grid-row: 1/2;
   z-index: 3;
@@ -11,13 +12,14 @@
   text-align: center;
   text-shadow: 0 0px 1px black;
   color: #ffffff;
-  margin: 0;
+  margin: 0 auto;
   list-style-type: none;
   padding-left: 0;
   transition: all 1s ease;
 }
-@media screen and (max-width: 533px) {
+@media screen and (max-width: 550px) {
   .cover__title {
+    max-width: 250px;
     font-size: 32px;
     line-height: 35px;
   }

@@ -1,6 +1,5 @@
 .footer__copyright {
-  position: absolute;
-  right: 0;
+  display: inline-block;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -10,16 +9,14 @@
   color: #ffffff;
   transition: all 1s ease;
 }
-@media screen and (max-width: 697px) {
+@media screen and (max-width: 717px) {
   .footer__copyright {
     position: static;
-    text-align: center;
+    text-align: start;
   }
 }
 @media screen and (max-width: 320px) {
   .footer__copyright {
-    position: static;
-    text-align: start;
     margin-top: 16px;
   }
 }

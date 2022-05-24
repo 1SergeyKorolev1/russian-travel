@@ -14,36 +14,34 @@
       content="Какими могут быть Путешествия по России? 'Чего мы там не видели': - скажите вы! А мы вам покажем: Куршскую косу, Кольский полуостров, Алтай, Зимний Байкал, Карелия...!"
     />
     <meta name="author" content="Сергей Королев" />
-    <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="stylesheet" href="./pages/index.css" />
-    <title>russian-travel</title>
+    <title>Путешествия по России</title>
   </head>
   <body class="body">
+    <header class="header">
+      <img
+        src="./images/header-logo.svg"
+        alt="картинка логотипа"
+        class="header__logo"
+      />
+      <div class="header__link">
+        <a class="header__lang-link header__lang-link_active" href="#">Ru</a>
+        <a class="header__lang-link" href="#">En</a>
+      </div>
+    </header>
     <main class="content">
-      <header class="header">
-        <img
-          src="./images/logo.png"
-          alt="картинка логотипа"
-          class="header__logo"
-        />
-        <nav class="header__link">
-          <a class="header__lang-link" href="#">Ru</a>
-          <a class="header__lang-link" href="#">En</a>
-        </nav>
-      </header>
       <section class="lead">
         <h1 class="lead__title">Путешествия по&nbsp;России</h1>
-        <ul class="lead__subtitle">
-          <li>Настоящая страна не в выпусках</li>
-          <li>новостей, а здесь.</li>
-        </ul>
+        <p class="lead__subtitle">
+          Настоящая страна не в выпусках новостей, а здесь.
+        </p>
         <img
           src="./images/Train_box.jpg"
           alt="картинка поезда"
           class="lead__image"
           title="Карта городов которые стоит посетить"
         />
-        <p class="lead__caption">ваша полка — верхняя</p>
+        <figcaption class="lead__caption">ваша полка — верхняя</figcaption>
       </section>
       <section class="intro">
         <h2 class="intro__title">Чего мы там не&nbsp;видели?</h2>
@@ -59,11 +57,19 @@
           некоторые интересные места, достойные вашего отпуска.
         </p>
         <ul class="intro__list">
-          <li>Часовых поясов 11</li>
-          <li>Объектов природного наследия ЮНЕСКО 12</li>
-          <li>Объектов культурного наследия ЮНЕСКО 16</li>
-          <li>Природных заповедников 105</li>
-          <li>Аэропортов 241</li>
+          <li>Часовых поясов <span class="intro__span-accent">11</span></li>
+          <li>
+            Объектов природного наследия ЮНЕСКО
+            <span class="intro__span-accent">12</span>
+          </li>
+          <li>
+            Объектов культурного наследия ЮНЕСКО
+            <span class="intro__span-accent">16</span>
+          </li>
+          <li>
+            Природных заповедников <span class="intro__span-accent">105</span>
+          </li>
+          <li>Аэропортов <span class="intro__span-accent">241</span></li>
         </ul>
       </section>
       <section class="photo-grid">
@@ -141,11 +147,13 @@
         />
       </section>
       <section class="places">
-        <div class="place">
+        <article class="place">
           <h2 class="place__title">Куршская коса</h2>
           <div class="place__website">
             <p class="place__url-heading">URL</p>
-            <a href="#" class="place__link">park-kosa.ru</a>
+            <a href="http://park-kosa.ru" class="place__link" target="_blank"
+              >park-kosa.ru</a
+            >
           </div>
           <img
             src="./images/place_kosa.jpg"
@@ -169,12 +177,17 @@
               прохладного моря.
             </p>
           </div>
-        </div>
-        <div class="place">
+        </article>
+        <article class="place">
           <h2 class="place__title">Кольский</h2>
           <div class="place__website">
             <p class="place__url-heading">URL</p>
-            <a href="#" class="place__link">National Geographic</a>
+            <a
+              href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
+              class="place__link"
+              target="_blank"
+              >National Geographic</a
+            >
           </div>
           <img
             src="./images/place_kolskiy.jpg"
@@ -198,12 +211,17 @@
               в Мурманск.
             </p>
           </div>
-        </div>
-        <div class="place">
+        </article>
+        <article class="place">
           <h2 class="place__title">Алтай</h2>
           <div class="place__website">
             <p class="place__url-heading">URL</p>
-            <a href="#" class="place__link">Facebook</a>
+            <a
+              href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822"
+              class="place__link"
+              target="_blank"
+              >Facebook</a
+            >
           </div>
           <img
             src="./images/place_altai.jpg"
@@ -226,12 +244,17 @@
               косули. И знаменитые манулы — тоже обитатели Алтайского края.
             </p>
           </div>
-        </div>
-        <div class="place">
+        </article>
+        <article class="place">
           <h2 class="place__title">Зимний Байкал</h2>
           <div class="place__website">
             <p class="place__url-heading">URL</p>
-            <a href="#" class="place__link">https://vk.com/baikalmile</a>
+            <a
+              href="https://vk.com/baikalmile"
+              class="place__link"
+              target="_blank"
+              >https://vk.com/baikalmile</a
+            >
           </div>
           <img
             src="./images/place_baical.jpg"
@@ -253,12 +276,14 @@
               «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.
             </p>
           </div>
-        </div>
-        <div class="place">
+        </article>
+        <article class="place">
           <h2 class="place__title">Карелия</h2>
           <div class="place__website">
             <p class="place__url-heading">URL</p>
-            <a href="#" class="place__link">http://vodlozero.ru/</a>
+            <a href="http://vodlozero.ru" class="place__link" target="_blank"
+              >http://vodlozero.ru/</a
+            >
           </div>
           <img
             src="./images/place_kareliya.jpg"
@@ -279,33 +304,46 @@
               медвежьими когтями. Чтобы все знали, кто тут хозяин.
             </p>
           </div>
-        </div>
+        </article>
       </section>
-      <a href="#" class="cover">
-        <ul class="cover__title">
-          <li>До Байкала</li>
-          <li>«на собаках»</li>
-        </ul>
-        <ul class="cover__subtitle">
-          <li>По мотивам учебной темы о Транссибе</li>
-          <li>— путешествие от столицы до Байкала</li>
-          <li>на электричках.</li>
-        </ul>
-        <img
-          src="./images/cover_images.jpg"
-          alt="вид на железнодорожные пути"
-          class="cover__image"
-        />
-        <div class="cover__overlay"></div>
-      </a>
-      <footer class="footer">
-        <a href="#" class="footer__link">Карты</a>
-        <a href="#" class="footer__link">Погода</a>
-        <a href="#" class="footer__link">Расписание</a>
-        <a href="#" class="footer__link">Календарь</a>
-        <a href="#" class="footer__link">Путешествия</a>
-        <p class="footer__copyright">&copy; 2022. Сергей Королев</p>
-      </footer>
+      <section class="cover">
+        <a
+          href="https://stampsy.com/na-elektrichkakh-do-baikala"
+          class="cover__link"
+          target="_blank"
+        >
+          <h2 class="cover__title">До Байкала «на собаках»</h2>
+          <p class="cover__subtitle">
+            &nbsp;По&nbsp;мотивам&nbsp;учебной&nbsp;темы о&nbsp;Транссибе
+            —&nbsp;путешествие от&nbsp;столицы&nbsp;до&nbsp;Байкала
+            на&nbsp;электричках.
+          </p>
+          <div class="cover__image"></div>
+        </a>
+      </section>
     </main>
+    <footer class="footer">
+      <nav class="footer__navigate">
+        <a href="https://yandex.ru/maps" class="footer__link" target="_blank"
+          >Карты</a
+        >
+        <a href="https://yandex.ru/pogoda" class="footer__link" target="_blank"
+          >Погода</a
+        >
+        <a href="https://rasp.yandex.ru" class="footer__link" target="_blank"
+          >Расписание</a
+        >
+        <a
+          href="https://calendar.yandex.ru"
+          class="footer__link"
+          target="_blank"
+          >Календарь</a
+        >
+        <a href="https://travel.yandex.ru" class="footer__link" target="_blank"
+          >Путешествия</a
+        >
+      </nav>
+      <p class="footer__copyright">&copy; 2022. Сергей Королев</p>
+    </footer>
   </body>
 </html>

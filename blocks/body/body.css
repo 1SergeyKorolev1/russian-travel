@@ -1,5 +1,6 @@
 .body {
-  font-family: Inter, Inter-Black;
+  font-family: "Inter", "Franklin Gothic Medium", "Arial Narrow", Arial,
+    sans-serif;
   margin: 0;
   background: #2a2c2f;
 }

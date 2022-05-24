@@ -1,0 +1,9 @@
+.footer__navigate {
+  display: flex;
+}
+@media screen and (max-width: 717px) {
+  .footer__navigate {
+    flex-direction: column;
+    text-align: center;
+  }
+}
