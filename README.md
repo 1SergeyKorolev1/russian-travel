@@ -1,6 +1,7 @@
 ---
 # ПУТЕШЕСТВИЯ ПО РОССИИ
-[Ссылка на проект←](https://1sergeykorolev1.github.io/russian-travel/) 
+[Ссылка на проект←](https://1sergeykorolev1.github.io/russian-travel/)  
+
 Проект "Путешествия по России": адаптивный, одностраничный сайт (информационный)
 ---
 
